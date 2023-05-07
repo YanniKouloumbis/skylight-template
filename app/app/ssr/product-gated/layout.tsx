@@ -99,8 +99,8 @@ export default async function SSRProductGatedLayout({
             }}
           >
             <PurchaseLink className={styles.card} plan={RECOMMENDED_PLAN}>
-              <h2>Buy Access &rarr;</h2>
-              <p>Purchase via Whop.</p>{" "}
+              <h2>Get Access &rarr;</h2>
+              <p>Access via Skylight AI ✨.</p>{" "}
             </PurchaseLink>{" "}
           </div>
         </main>

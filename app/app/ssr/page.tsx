@@ -42,7 +42,7 @@ const Page: NextAppPage = async () => {
               rel="noopener noreferrer"
               href="https://dash.skylightai.io"
             >
-              Whop
+              Skylight AI ✨
               {user
                 ? `, ${(await sdk.retrieveUsersProfile({})).username}!`
                 : `!`}
