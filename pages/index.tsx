@@ -103,7 +103,7 @@ const IndexPage: NextPage = () => {
           </a>
 
           <a
-            href="windowai.io"
+            href="https://windowai.io"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
