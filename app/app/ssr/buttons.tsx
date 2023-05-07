@@ -12,7 +12,7 @@ const Button: FunctionComponent<{
     <a
       href="#"
       className={styles.card}
-      onClick={() => (loggedIn ? signOut() : signIn("whop"))}
+      onClick={() => (loggedIn ? signOut() : signIn("skylightai"))}
     >
       {children}
     </a>

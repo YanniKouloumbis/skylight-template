@@ -6,7 +6,7 @@ import { Inter } from "next/font/google";
 export const metadata = {
   title: "Whop Powered Application (SSG)",
   icons: {
-    icon: [{ url: "/logo.svg" }, new URL("/logo.svg", "https://whop.com")],
+    icon: [{ url: "/logo.svg" }, new URL("/logo.svg", "https://app.skylightai.io")],
   },
 };
 

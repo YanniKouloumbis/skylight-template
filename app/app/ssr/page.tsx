@@ -40,7 +40,7 @@ const Page: NextAppPage = async () => {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://dash.whop.com"
+              href="https://dash.skylightai.io"
             >
               Whop
               {user
@@ -87,7 +87,7 @@ const Page: NextAppPage = async () => {
           >
             <Button>
               <h2 className={inter.className}>Login &rarr;</h2>
-              <p className={inter.className}>Proceed to sign in with Whop</p>
+              <p className={inter.className}>Proceed to sign in with Skylight AI ✨</p>
             </Button>
           </div>
         ) : (

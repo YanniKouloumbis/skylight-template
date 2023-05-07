@@ -2,9 +2,9 @@ import { NextLayout } from "@/types/app-dir";
 import "./globals.css";
 
 export const metadata = {
-  title: "Whop Powered Application (SSR)",
+  title: "Skylight AI ✨ Powered Application (SSR)",
   icons: {
-    icon: [{ url: "/logo.svg" }, new URL("/logo.svg", "https://whop.com")],
+    icon: [{ url: "/logo.svg" }, new URL("/logo.svg", "https://app.skylightai.io")],
   },
 };
 

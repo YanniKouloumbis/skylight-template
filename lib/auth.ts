@@ -3,14 +3,14 @@ import type { NextAuthOptions } from "next-auth";
 export const authOptions: NextAuthOptions = {
   providers: [
     {
-      id: "whop",
-      name: "Whop",
+      id: "skylightai",
+      name: "Skylight AI",
       type: "oauth" as const,
-      authorization: "https://whop.com/oauth",
+      authorization: "https://app.skylightai.io/oauth",
       token: "https://data.whop.com/api/v3/oauth/token",
       userinfo: "https://data.whop.com/api/v2/me",
-      clientId: process.env.NEXT_PUBLIC_WHOP_CLIENT_ID,
-      clientSecret: process.env.WHOP_CLIENT_SECRET,
+      clientId: process.env.NEXT_PUBLIC_SKYLIGHT_CLIENT_ID,
+      clientSecret: process.env.SKYLIGHT_CLIENT_SECRET,
       allowDangerousEmailAccountLinking: true,
       profile(profile: {
         id: string;
