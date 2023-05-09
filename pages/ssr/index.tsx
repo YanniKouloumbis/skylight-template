@@ -23,7 +23,6 @@ const Page: NextPage<UserProps> = ({ user }) => {
           <a
             href="/"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <span>&lt;-</span> Go back

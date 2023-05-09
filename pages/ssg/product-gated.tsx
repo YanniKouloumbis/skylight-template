@@ -23,7 +23,6 @@ const SSGProductGatedPage: NextPage = () => {
             <a
               href="/ssr"
               className={styles.card}
-              target="_blank"
               rel="noopener noreferrer"
             >
               <span>&lt;-</span> Go back
