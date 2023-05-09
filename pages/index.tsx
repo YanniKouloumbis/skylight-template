@@ -112,7 +112,7 @@ const IndexPage: NextPage = () => {
               Discord <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Join our Window AI Devs Discord community for on-demand support.
+              Join the Window AI Devs Discord community for window.ai support.
             </p>
           </a>
         </div>
