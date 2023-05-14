@@ -84,13 +84,13 @@ const Page: NextPage<ProductGatedProps> = ({ membership, product, plan }) => {
         </Head>
         <main className={styles.main}>
           <div className={styles.description}>
-            <a
+            <Link
               href="/"
               className={styles.card}
               rel="noopener noreferrer"
             >
               <span>&lt;-</span> Go back
-            </a>
+            </Link>
             <p>
               Edit this page inside of{" "}
               <code className={styles.code}>pages/ssr/product-gated.tsx</code>
@@ -105,7 +105,7 @@ const Page: NextPage<ProductGatedProps> = ({ membership, product, plan }) => {
                   paddingLeft: "5px",
                 }}
               >
-                Get <a href={link}>Access</a> ✨
+                Get <Link href={link}>Access</Link> ✨
               </h1>
               <div>
                 <p
@@ -165,13 +165,13 @@ const Page: NextPage<ProductGatedProps> = ({ membership, product, plan }) => {
           <main className={styles.main}>
             
             <div className={styles.description}>
-              <a
+              <Link
                 href="/app/ssr"
                 className={styles.card}
                 rel="noopener noreferrer"
               >
                 <span>&lt;-</span> Go back
-              </a>
+              </Link>
               <p>
                 Edit this page inside of{" "}
                 <code className={styles.code}>app/app/ssr/page.tsx</code>
@@ -195,7 +195,7 @@ const Page: NextPage<ProductGatedProps> = ({ membership, product, plan }) => {
                 alignItems: "center",
               }}
             >
-              <a
+              <Link
                 href={
                   "https://app.skylightai.io/hub/" +
                   membership.id +
@@ -207,9 +207,9 @@ const Page: NextPage<ProductGatedProps> = ({ membership, product, plan }) => {
                 <p className={inter.className}>
                   Manage your billing and access.
                 </p>
-              </a>
+              </Link>
 
-              <a
+              <Link
                 href={
                   "https://app.skylightai.io/hub/" +
                   membership.id +
@@ -221,7 +221,7 @@ const Page: NextPage<ProductGatedProps> = ({ membership, product, plan }) => {
                 <p className={inter.className}>
                   If you like this web app, leave a review!
                 </p>
-              </a>
+              </Link>
             </div>
           </main>
         </div>

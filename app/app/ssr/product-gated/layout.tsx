@@ -8,6 +8,7 @@ import styles from "../../../../styles/Home.module.css";
 import { retrievePlan } from "./get-data";
 import PurchaseLink from "./PurchaseLink";
 import { Inter } from "next/font/google";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,13 +41,13 @@ export default async function SSRProductGatedLayout({
       <>
         <main className={styles.main}>
           <div className={styles.description}>
-            <a
+            <Link
               href="/app/ssr"
               className={styles.card}
               rel="noopener noreferrer"
             >
               <span>&lt;-</span> Go back
-            </a>
+            </Link>
             <p>
               Edit this page inside of{" "}
               <code className={styles.code}>app/app/ssr/layout.tsx</code>

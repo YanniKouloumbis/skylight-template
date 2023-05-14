@@ -23,7 +23,7 @@ const IndexPage: NextPage = () => {
             <code className={styles.code}>pages/index.tsx</code>
           </p>
           <div>
-            <a
+            <Link
               href="https://dash.skylightai.io?utm_source=nextjs-template"
               target="_blank"
               rel="noopener noreferrer"
@@ -40,7 +40,7 @@ const IndexPage: NextPage = () => {
               }>
               Skylight AI ✨
                 </span>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ const IndexPage: NextPage = () => {
         </div>
 
         <div className={styles.grid}>
-          <a
+          <Link
             href="/ssr"
             className={styles.card}
             target="_blank"
@@ -72,9 +72,9 @@ const IndexPage: NextPage = () => {
               View an implementation of our payment gate with the pages
               directory.
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/app/ssr"
             className={styles.card}
             target="_blank"
@@ -86,9 +86,9 @@ const IndexPage: NextPage = () => {
             <p className={inter.className}>
               View an implementation of our payment gate with the app directory.
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://github.com/yannikouloumbis"
             className={styles.card}
             target="_blank"
@@ -100,9 +100,9 @@ const IndexPage: NextPage = () => {
             <p className={inter.className}>
               Explore the full capability of Skylight&apos;s API (Powered by Whop).
             </p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="https://windowai.io"
             className={styles.card}
             target="_blank"
@@ -114,7 +114,7 @@ const IndexPage: NextPage = () => {
             <p className={inter.className}>
               Join the Window AI Devs Discord community for window.ai support.
             </p>
-          </a>
+          </Link>
         </div>
       </main>
     </>

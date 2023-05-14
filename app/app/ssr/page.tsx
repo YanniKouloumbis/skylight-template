@@ -14,13 +14,12 @@ const Page: NextAppPage = async () => {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <a
+        <Link
           href="/"
           className={styles.card}
-          rel="noopener noreferrer"
         >
           <span>&lt;-</span> Go back
-        </a>
+        </Link>
         <p>
           Edit this page inside of{" "}
           <code className={styles.code}>app/app/ssr/index.tsx</code>

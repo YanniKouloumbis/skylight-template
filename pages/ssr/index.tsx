@@ -20,13 +20,13 @@ const Page: NextPage<UserProps> = ({ user }) => {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-          <a
+          <Link
             href="/"
             className={styles.card}
             rel="noopener noreferrer"
           >
             <span>&lt;-</span> Go back
-          </a>
+          </Link>
           <p>
             Edit this page inside of{" "}
             <code className={styles.code}>pages/ssr/index.tsx</code>
