@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../../styles/Home.module.css";
 import { Inter } from "next/font/google";
 import { useEffect, useRef } from "react";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -56,13 +57,13 @@ const SSGProductGatedPage: NextPage = () => {
 
         <main className={styles.main}>
           <div className={styles.description}>
-            <a
+            <Link
               href="/ssr"
               className={styles.card}
               rel="noopener noreferrer"
             >
               <span>&lt;-</span> Go back
-            </a>
+            </Link>
             <p>
               Edit this page inside of{" "}
               <code className={styles.code}>

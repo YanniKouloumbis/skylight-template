@@ -87,7 +87,6 @@ const Page: NextPage<ProductGatedProps> = ({ membership, product, plan }) => {
             <Link
               href="/"
               className={styles.card}
-              rel="noopener noreferrer"
             >
               <span>&lt;-</span> Go back
             </Link>
