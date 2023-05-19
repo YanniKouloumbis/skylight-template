@@ -5,7 +5,7 @@ const getPurchaseLink = (
   redirect: string,
   location: URL | string
 ) => {
-  const href = new URL(`https://app.skylightai.io/checkout/${plan}/`);
+  const href = new URL(`https://skylightai.io/checkout/${plan}/`);
   const onSuccess = new URL(redirect, location);
   href.searchParams.set("onSuccess", onSuccess.href);
   return href;
@@ -13,7 +13,7 @@ const getPurchaseLink = (
 
 export const usePurchaseLink = (plan: string, redirect?: string) => {
   const [purchaseLink, setPurchaseLink] = useState(
-    `https://app.skylightai.io/checkout/${plan}/`
+    `https://skylightai.io/checkout/${plan}/`
   );
 
   useEffect(() => {

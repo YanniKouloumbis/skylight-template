@@ -7,7 +7,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Skylight AI Powered Application (SSG)",
   icons: {
-    icon: [{ url: "/skylightlogo.svg" }, new URL("/skylightlogo.svg", "https://app.skylightai.io")],
+    icon: [{ url: "/skylightlogo.svg" }, new URL("/skylightlogo.svg", "https://skylightai.io")],
   },
 };
 

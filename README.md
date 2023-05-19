@@ -46,18 +46,18 @@ The examples in this list show how to use `getServerSideProps` in the `pages` di
 
 - `pages/ssr/index.tsx` - Adds the whop `User` to the page props. It renders a login button for logged-out users and a logout button for logged-in users
 - `pages/ssr/logged-in.tsx` - Only displays a page to logged-in users. If a logged-out user tries to access this page they will be redirected to `/ssr` where they can log in
-- `pages/ssr/product-gated.tsx` - Check if a user owns a specific `Product` and only shows the page content if they do. If the user does not own the product a button directing the user to the app.skylightai.io checkout page where they can buy a plan that unlocks the page.
+- `pages/ssr/product-gated.tsx` - Check if a user owns a specific `Product` and only shows the page content if they do. If the user does not own the product a button directing the user to the skylightai.io checkout page where they can buy a plan that unlocks the page.
 
 ### `/pages` (Statically rendered):
 
-- `pages/ssg/product-gated.tsx` - This example shows how to use `middleware` to prevent users without access to a certain `Product` to visit this page. If a user that does not have access tries to request this page the `middleware` will redirect them to the app.skylightai.io checkout page where they can buy a plan that unlocks the page.
+- `pages/ssg/product-gated.tsx` - This example shows how to use `middleware` to prevent users without access to a certain `Product` to visit this page. If a user that does not have access tries to request this page the `middleware` will redirect them to the skylightai.io checkout page where they can buy a plan that unlocks the page.
 
 ### `/app`:
 
 The examples in this list show how to use `@whop-sdk/core` in the new `app` directory added in `next@13.0.0`
 
 - `app/app/ssr/page.tsx`: This `page` shows how to obtain a user-scoped instaince of the WhopSDK UserService. If its able to obtain the sdk (the user is logged-in) it shows a logout button, if not it shows a login button
-- `app/app/ssr/product-gated/layout.tsx`: This `layout` shows how to lock a layout (and its children) for users that don't own a specific product. If no product is owned it renders a button that allows the user to purchase a product unlocking the layout on app.skylightai.io
+- `app/app/ssr/product-gated/layout.tsx`: This `layout` shows how to lock a layout (and its children) for users that don't own a specific product. If no product is owned it renders a button that allows the user to purchase a product unlocking the layout on skylightai.io
 - `app/app/ssr/product-gated/page.tsx`: This `page` is product-gated without any extra setup as its parent `layout`(`app/app/ssr/product-gated/layout.tsx`) is already product-gated
 - `app/app/ssg/product-gated/page.tsx`: This `page` is protected by `middleware`, conceptually similar to `pages/ssg/product-gated.tsx`
 

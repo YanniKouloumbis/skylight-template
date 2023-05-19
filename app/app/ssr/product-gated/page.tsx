@@ -64,7 +64,7 @@ const Page: NextAppPage = async () => {
           >
             <Link
               href={
-                "https://app.skylightai.io/hub/" +
+                "https://skylightai.io/hub/" +
                 membership.id +
                 "?utm_source=nextjs-template"
               }
@@ -76,7 +76,7 @@ const Page: NextAppPage = async () => {
 
             <Link
               href={
-                "https://app.skylightai.io/hub/" +
+                "https://skylightai.io/hub/" +
                 membership.id +
                 "?utm_source=nextjs-template"
               }

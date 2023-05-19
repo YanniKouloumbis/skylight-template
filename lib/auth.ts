@@ -6,7 +6,7 @@ export const authOptions: NextAuthOptions = {
       id: "skylightai",
       name: "Skylight AI",
       type: "oauth" as const,
-      authorization: "https://app.skylightai.io/oauth",
+      authorization: "https://skylightai.io/oauth",
       token: "https://data.whop.com/api/v3/oauth/token",
       userinfo: "https://data.whop.com/api/v2/me",
       clientId: process.env.NEXT_PUBLIC_SKYLIGHT_CLIENT_ID,

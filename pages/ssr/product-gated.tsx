@@ -195,7 +195,7 @@ const Page: NextPage<ProductGatedProps> = ({ membership, product, plan }) => {
             >
               <Link
                 href={
-                  "https://app.skylightai.io/hub/" +
+                  "https://skylightai.io/hub/" +
                   membership.id +
                   "?utm_source=nextjs-template"
                 }
@@ -209,7 +209,7 @@ const Page: NextPage<ProductGatedProps> = ({ membership, product, plan }) => {
 
               <Link
                 href={
-                  "https://app.skylightai.io/hub/" +
+                  "https://skylightai.io/hub/" +
                   membership.id +
                   "?utm_source=nextjs-template"
                 }
